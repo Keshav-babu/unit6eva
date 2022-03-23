@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { getProductsReq, getProductsSuccess } from "../Redux/actions";
+// import React, { useEffect } from "react";
+import { useSelector } from "react-redux";
+// import { getProductsReq, getProductsSuccess } from "../Redux/actions";
 
 // export const Products = () => {
 //   const data=useSelector((store)=>store.products)
@@ -38,7 +38,7 @@ import { getProductsReq, getProductsSuccess } from "../Redux/actions";
 // };
 export const Products=()=>{
   const data=useSelector((store)=>store)
-  const dispatch=useDispatch()
+  // const dispatch=useDispatch()
   // dispatch(getProductsSuccess())
   
   console.log(data)

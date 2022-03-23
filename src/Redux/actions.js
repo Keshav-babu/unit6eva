@@ -1,11 +1,5 @@
 import { REQUEST, SUCCESS } from "./actionTypes";
-import {axios} from "axios"
-// let data=[]
-// axios.get("https://movie-fake-server.herokuapp.com/products")
-// .then((res)=>{
-//     return 
-// })
-// action for get products request
+
 export const getProductsReq = (data) => ({
     type:REQUEST,payload:data
 });
